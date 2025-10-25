@@ -1,0 +1,77 @@
+<head>
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+    <title>my portfolio</title>
+</head>
+
+<body>
+    <!-- First article: Intro/About -->
+    <article class="article">
+        <h1 style="text-align: center;">Welcome to Yazeed Faris's Portfolio</h1>
+        
+        <!-- Section: About Me -->
+        <section id="about">
+            <h4>About Me</h4>
+            <p>I'm a CS student @ KFUPM. My non-academic hobbies include producing electronic music, playing Minecraft, and camping. I'm a pretty dandy guy if you ask me.</p>
+            <br>
+            <br>
+            <blockquote><i>Turning Data Into Action</i></blockquote>
+        </section>
+    </article>
+   
+    <!-- Second article: Projects -->
+    <article class="article">
+        <section id="projects">
+            <h4>Check out some of my cool projects</h4>
+            
+            <!-- Navigation with project previews -->
+            <nav>
+                <div>
+                    <p>16-bit pipelined CPU <br> 
+                    <img src="assets/images/cpu.jfif"></p>
+                </div>
+                <div>
+                    <p>Actuarial Machine Learning Model <br> 
+                    <img src="assets/images/matrix.jfif"></p>
+                </div>
+                <div>
+                    <p>Handicapped Smart Parking System <br> 
+                    <img src="assets/images/FPGA.jfif"></p>
+                </div>
+            </nav>
+
+            <p>for more info on these projects check out 
+                <a href="www.linkedin.com/in/yazeed-faris-418076254">my LinkedIn</a>
+            </p>
+        </section>
+    </article>
+
+    <!-- Third article: Contact/Info -->
+    <article class="article">
+    <h4>More Info.</h4>
+    <address>
+        Assignment 1<br>
+        Yazeed Faris<br>
+        <a href="mailto:yazidbinfaris@gmail.com">yazidbinfaris@gmail.com</a><br>
+        KFUPM
+    </address>
+
+    <!-- Contact Form -->
+    <h4>Contact Me</h4>
+    <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+        <button type="submit">Send</button>
+    </form>
+</article>
+
+    <script src="js/script.js"></script>
+        
+</body>

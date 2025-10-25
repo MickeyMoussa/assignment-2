@@ -1,0 +1,85 @@
+* {
+    font-family: "futura";
+}
+
+body {
+ 	background-image:url("../assets/bg_main1.gif");
+	background-color:#000000;
+	color:white;	
+}
+
+.article {
+    background-color: black;
+    padding: 40px;
+    background-size: auto;
+    margin: 40px auto;
+    width: 90%;          /* flexible width */
+    max-width: 800px;   
+    height: auto;
+    border-radius: 8px;  
+}
+
+nav {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+nav div {
+	justify-content: space-evenly;
+    margin: 5px;
+    padding: 10px;
+	flex: 010;
+      }
+nav p img {
+  width: 100px;   /* or any fixed value */
+  height: 100px;
+  object-fit: cover; /* keeps aspect ratio, crops if needed */
+}
+
+a:link {
+	color:#d2738a;
+	}
+	
+a:visited {
+	color:#d2738a;
+	}
+	
+a:hover {
+	color:#c1b492;
+	animation: wiredB2 1s ease-out infinite;
+
+	}
+	
+a:active {
+	color:#d2738a;
+	}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+form input,
+form textarea {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+}
+
+form button {
+  padding: 10px;
+  background-color: #d2738a;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #c1b492;
+}
