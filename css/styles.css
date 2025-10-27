@@ -2,10 +2,23 @@
     font-family: "futura";
 }
 
+.wb-body {
+  background: color;
+  padding: 20px;
+}
+
 body {
- 	background-image:url("../assets/bg_main1.gif");
+ 	background-image:url("../assets/images/bg_main1.gif");
 	background-color:#000000;
 	color:white;	
+}
+
+::selection {
+    background:#d2738a;
+}
+
+.wb-body {
+  background-color: #000000;
 }
 
 .article {
@@ -24,12 +37,16 @@ nav {
 	flex-wrap: wrap;
 }
 
+nav span {font-size: x-small;}
+
 nav div {
 	justify-content: space-evenly;
     margin: 5px;
     padding: 10px;
 	flex: 010;
+    
       }
+nav div img, nav div span {cursor: pointer;}
 nav p img {
   width: 100px;   /* or any fixed value */
   height: 100px;
